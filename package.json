@@ -10,6 +10,7 @@
     "react-router-dom": "^6.25.2" 
 {
   "engines": {
-+   "node": "18.x" // Versão específica
+-   "node": ">=18.0.0"
++   "node": "18.x" 
   }
 }
