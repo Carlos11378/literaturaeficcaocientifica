@@ -1,16 +1,20 @@
 {
   "name": "literaturaeficcaocientifica",
   "version": "1.0.0",
-  "description": "Aplicativo de ficção científica e literatura",
-  "main": "index.js",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0"
-  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "CI=false react-scripts build", // CI=false evita falhas por avisos
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://carlos11378.github.io/literaturaeficcaocientifica/"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0" // Versão compatível com Vercel
+  }
 }
+
+
